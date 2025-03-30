@@ -1,0 +1,20 @@
+// find character case (upper and lower cases)
+
+#include <stdio.h>
+#include<ctype.h>
+int main() {
+    // Write C code here
+    char c='a';
+    int code;
+    printf("enter 1 for uppercase or 0 for lowercase:");
+    scanf("%d",&code);
+    if(code==1)
+    {
+        printf("%c\n",toupper(c));
+    }
+else
+{
+    printf("%c\n",tolower(c));
+}
+    return 0;
+}

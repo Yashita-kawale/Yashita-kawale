@@ -1,0 +1,29 @@
+// 2.data type
+#include <stdio.h>
+int main() {
+    // Write C code here
+int choice;
+printf("\n enter dayatypes (1-Integer,2-Long,3-Float,4-Double,5-Character):");
+scanf("%d",&choice);
+switch(choice)
+{
+case 1:    
+    printf("size:2 bytes\n");
+    break;
+case 2:    
+    printf("size:8 bytes\n");
+    break;
+case 3:    
+    printf("size:4 bytes\n");
+    break;
+case 4:    
+    printf("size:8 bytes\n");
+    break;
+case 5:    
+    printf("size:1 bytes\n");
+    break;
+default:
+    printf("Invalid data type");
+}
+    return 0;
+}
