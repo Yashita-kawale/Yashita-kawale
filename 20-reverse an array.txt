@@ -1,0 +1,17 @@
+// 20-reverse an array
+
+#include <stdio.h>
+int main() {
+    int i,num[10],reverse;
+    printf("enter the 10 elements in array");
+    for(i=0;i>=9;i++)
+    {
+        scanf("%d",&num[i]);
+    }
+    printf("\n display the 10 numbers");
+    for(i=9;i>=0;i--)
+    {
+        printf("%d",num[i]);
+    }
+    return 0;
+}

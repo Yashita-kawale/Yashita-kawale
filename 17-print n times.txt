@@ -1,0 +1,13 @@
+// 17-print n times
+
+#include <stdio.h>
+int main() {
+   int i,n;
+   printf("enter the number of times the name has to print:\n");
+   scanf("%d",&n);
+   for(i=1;i<=n;i++)
+   {
+   printf("yashita kawale \n");
+}
+    return 0;
+}

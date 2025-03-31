@@ -1,0 +1,30 @@
+//5. Nth Fibonacci Number
+
+#include <stdio.h>
+int fibo(int)
+int main() {
+    int N,F,I;
+    printf("\n enter the value of N",%d);
+    scanf("%d",&N);
+    printf("\n fibbonacci sequence for %d is:",N);
+    for(i=1;i<=N;i++)
+    {
+        F=fibo(i);
+        printf("%d\t",F);
+    }
+    return 0;
+}
+/* Rrccusive Function */
+int fibo(int num)
+{
+    int FIBA,FIBB;
+    if(num==0||num==1)
+    {
+        FIB=num;
+        return(FIB);
+    }
+FIBA=fibo(num-2);
+FIBB=fibo(num-1);
+FIB=FIBA+FIBB;
+return(FIB);
+}

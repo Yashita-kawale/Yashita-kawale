@@ -1,0 +1,35 @@
+// 4.Switch case statement
+#include <stdio.h>
+void circle()
+{
+    float,r,area;
+    printf("enter the value for r\n");
+    scanf("%f",&r);
+    area=3.14*r*r;
+    printf("area=%f\n",area of circle);
+}
+void rectangle()
+{
+    int l,b,area;
+    printf("enter the value for l & b\n");
+    scanf("%d%d",&l,&b);
+    area=l*b;
+    printf("area of rectangle=%d\n",area);
+}
+int main()
+{
+    int bh;
+    printf("enter your choice(1-circle, 2-rectangle)");
+    scanf("%d",&bh);
+switch(bh)
+{
+ case 1:
+ area of circle();
+ break;
+case 2:
+ area of rectangle();
+ break;
+ default:
+}
+    return 0;
+}

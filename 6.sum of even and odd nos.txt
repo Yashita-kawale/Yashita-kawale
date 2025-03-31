@@ -1,0 +1,22 @@
+// 6.sum of even and odd nos:
+
+#include <stdio.h>
+int main() {
+   int i=1,n,sum=0;
+   printf("enter a number");
+   scanf("%d",&n);
+   for(i=1;i<=n;i++)
+   {
+       if(i%2==0)
+       {
+           sum=sum+i;
+        }
+    else
+     {
+        sum=sum+i;
+     }
+   }
+   printf("sum of even nos:%d\n",sum);
+   printf("sum of odd nos:%d\n",sum);
+    return 0;
+}

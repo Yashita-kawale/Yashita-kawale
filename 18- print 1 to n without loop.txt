@@ -1,0 +1,18 @@
+// 18- print 1 to n without loop
+
+#include <stdio.h>
+
+int main(int n) {
+  if(n>0){
+      print numbers(n-1);
+      print("%d",n);
+  }
+  }
+  int main()
+  {
+      int n;
+      printf("enter a number");
+      scanf("%d",&n);
+      printnumber(n);
+    return 0;
+}
